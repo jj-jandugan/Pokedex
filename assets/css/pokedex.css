@@ -349,7 +349,7 @@
     opacity: 0.9; 
 }
 
-/* Decorative Pokeball background */
+/* Decorative Pokedex background */
 .pokeball-background {
     position: absolute;
     width: 350px;           
@@ -357,7 +357,7 @@
     top: 50%;               
     left: 50%;              
     transform: translate(-50%, -40%); 
-    background-image: url(/pokedex.png); 
+    background-image: url(assets/image/pokedex.png); 
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.08; 
