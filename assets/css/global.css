@@ -1,0 +1,124 @@
+/* --- CSS Root Variables --- */
+:root {
+  --header-red: #dc0a2d;
+  --pokedex-yellow: #ffcb05;
+  --pokedex-blue: #3d7dca;
+  --top-bar-blue: #2a75bb;
+  --main-bg-gray: rgba(85, 85, 85, 1); 
+  --content-bg: transparent;
+  --card-bg: #ffffff;
+  --text-dark: #333333;
+  --text-light: #f1f1f1;
+  --text-number: rgba(255, 255, 255, 0.6);
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-bg-gray); 
+  color: var(--text-dark);
+  position: relative;
+  z-index: 0;
+  min-height: 100vh;
+  padding-top: 203px; 
+
+}
+
+/* --- Top Bar Styling --- */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: var(--top-bar-blue);
+    z-index: 101;
+}
+
+/* --- Modal Open State --- */
+body.modal-open {
+  overflow: hidden;
+}
+
+/* --- Pokemon Type Color Classes --- */
+.normal { 
+  background-color: #a6a877; 
+  color: #a6a877; 
+}
+.grass { 
+  background-color: #77c850; 
+  color: #77c850; 
+}
+.fire { 
+  background-color: #ee7f30; 
+  color: #ee7f30; 
+}
+.water { 
+  background-color: #678fee; 
+  color: #678fee; 
+}
+.electric { 
+  background-color: #f7cf2e; 
+  color: #f7cf2e; 
+}
+.ice { 
+  background-color: #98d5d7; 
+  color: #98d5d7; 
+}
+.ground { 
+  background-color: #dfbf69; 
+  color: #dfbf69; 
+}
+.flying { 
+  background-color: #a98ff0; 
+  color: #a98ff0; 
+}
+.poison { 
+  background-color: #a040a0; 
+  color: #a040a0; 
+}
+.fighting { 
+  background-color: #bf3029; 
+  color: #bf3029; 
+}
+.psychic { 
+  background-color: #f65687; 
+  color: #f65687; 
+}
+.dark { 
+  background-color: #725847; 
+  color: #725847; 
+}
+.rock { 
+  background-color: #b8a137; 
+  color: #b8a137; 
+}
+.bug { 
+  background-color: #a8b720; 
+  color: #a8b720; 
+}
+.ghost { 
+  background-color: #6e5896; 
+  color: #6e5896; 
+}
+.steel { 
+  background-color: #b9b7cf; 
+  color: #b9b7cf; 
+}
+.dragon { 
+  background-color: #6f38f6; 
+  color: #6f38f6; 
+}
+.fairy { 
+  background-color: #f9aec7; 
+  color: #f9aec7; 
+}
+.unknown { 
+  background-color: #aaa; 
+  color: #aaa; 
+}
